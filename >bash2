@@ -1,0 +1,16 @@
+cd c:\Users\Admin\Documents\SMARTMART
+
+# Check git status
+git status
+
+# Add all files
+git add requirements.txt
+git add Procfile
+git add runtime.txt
+git add .gitignore
+
+# Commit
+git commit -m "Add deployment files"
+
+# Push to GitHub
+git push origin main
