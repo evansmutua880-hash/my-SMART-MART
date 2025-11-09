@@ -1,0 +1,17 @@
+# After installing Git, run:
+cd c:\Users\Admin\Documents\SMARTMART
+
+# Initialize git
+git init
+
+# Add files
+git add .
+
+# Commit
+git commit -m "Initial commit - SmartMart POS"
+
+# Create repository on GitHub (https://github.com/new)
+# Then connect it:
+git remote add origin https://github.com/YOUR-USERNAME/smartmart.git
+git branch -M main
+git push -u origin main
