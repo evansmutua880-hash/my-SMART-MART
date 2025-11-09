@@ -34,4 +34,3 @@ redis==5.0.1
 
 # Background Jobs (Optional)
 rq==1.15.1
-
